@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+}
+
+.navbar{
+    background-color: rgba(10, 132, 231,0.8);
+}
+.item-in-dropdown-menu{
+    background-color: bisque;
+   
+}
+.item-in-dropdown-menu:hover{
+    background-color: bisque;
+}
+
+
+/**************************       for content *******************/ 
+
+.contents{
+    width: 100%;
+   
+   
+   
+    margin-top:3%; 
+    padding: 1%;
+    padding-left: 3%;
+    /* border: 5px solid rgba(0, 255, 255,0.5); */
+
+  
+}
+
+
+/*********************************** this nav of content ***************/
+.navForContent{
+
+  padding-left: 35%;
+}
+/*********************************** this style for content of users ***************/
+.users{
+ 
+
+  /* background-color: white; */
+  padding: 2%;;
+  margin-left:10% ;
+  margin-right:10%;
+  height: 500px;; 
+  
+ 
+}
+
+h1{
+
+
+  text-align: center;
+  background-color: white;
+  border-radius:10px; 
+  color: rgb(30, 100, 230);
+  padding: 2%;;
+  margin-left:20%; 
+  margin-right:20%; 
+
+  position: relative;
+  animation: skewBox linear 6s 1s 2 normal;
+}
+
+@keyframes skewBox {
+  0% {   transform: skewX(0deg); }
+  25%{  transform: skewX(50deg); }
+  50%{ transform: skewX(0deg); }
+  75%{ transform: skewX(-50deg); }
+  100%{ transform: skewX(0deg); }
+}
+.table{
+
+  background-color: white;
+  border: 3px ridge aliceblue;
+  border-radius:10px; 
+
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+td , th{
+  text-align: center;
+}
+
+
+/***************************    footer  *************************/  
+  .footer{
+
+    background-color: rgba(10, 132, 231,0.9);
+   
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+  }

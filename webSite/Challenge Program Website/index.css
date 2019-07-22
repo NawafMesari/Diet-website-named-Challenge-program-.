@@ -1,0 +1,123 @@
+
+body{
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+}
+
+.navbar{
+    background-color: rgba(10, 132, 231,0.8);
+}
+.item-in-dropdown-menu{
+    background-color: bisque;
+   
+}
+.item-in-dropdown-menu:hover{
+    background-color: bisque;
+}
+/*********************** for slide show *****************/
+    .carousel-inner img {
+        width: 100%;
+        /* height: 100%; */
+        height: 550px;
+      }
+      .carousel ,.slide{
+        width: 100%;
+        
+        margin-top:5%;
+        /* margin-left:27%;  */
+      
+      }
+      .carousel-caption{
+       
+        font-weight: bolder;
+      }
+
+
+/**************************       for content *******************/ 
+
+.contents{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding: 10%;
+    padding-left: 16%;
+    /* border: 5px solid rgba(0, 255, 255,0.5); */
+}
+
+.contents div{
+  position: relative;
+
+  margin: 2%;
+ width: 40%;
+ height: 100%;;
+ 
+ 
+ transition: 0.5s linear;
+
+  border: 1px solid black;
+}
+
+.contents img{
+  border: 1px solid gray;
+}
+.contents div p{
+ 
+  opacity: 0;
+
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  padding: 4%;
+ 
+ /* background-color:  rgba(37, 88, 139, 0.6); */
+
+  background-color: rgba(239, 247, 255,0.8);
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  transition: 2s linear;
+}
+
+.contents div:hover p{
+  
+  animation: moveing 0.9s ;
+  animation-fill-mode: forwards;
+  opacity: 1;
+  
+  overflow: auto;
+}
+
+@keyframes moveing{
+ 
+from {height: 0%;}
+to{height: 70%;}
+}
+
+.contents div p span{
+  font-size: 130%;
+
+}
+.idofArticle{
+  color: red;
+  font-weight: bolder;
+}
+.contents div:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 1px 1px 4px 4px gray;
+}
+/***************************    footer  *************************/  
+  .footer{
+
+    background-color: rgba(10, 132, 231,0.9);
+   
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+  }

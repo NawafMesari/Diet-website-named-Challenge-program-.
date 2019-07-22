@@ -1,0 +1,84 @@
+
+body{
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+}
+
+.navbar{
+    background-color: rgba(10, 132, 231,0.8);
+}
+.item-in-dropdown-menu{
+    background-color: bisque;
+   
+}
+.item-in-dropdown-menu:hover{
+    background-color: bisque;
+}
+
+/**************************       for content *******************/ 
+
+.contents{
+   
+    
+
+    position: relative;
+    margin-top:5%; 
+    width: 100%;
+
+
+    /* border: 5px solid rgba(0, 255, 255,0.5); */
+    
+   
+}
+.form-group{
+    text-align: right;
+}
+.createAccount{
+    text-align: center;
+}
+.image{
+    text-align: center;
+    width: 100%;
+    
+}
+.image img{
+    
+    border-radius:100%; 
+}
+fieldset{
+    background-color: rgba(239, 247, 255,0.8);
+    border: 5px solid rgba(239, 247, 255,0.8);
+    border-radius:10px; 
+    width: 30%;
+    padding: 1%;
+    margin-left: 33%;
+    margin-top: 10%;
+    margin-bottom: 7.9%;
+}
+legend{
+    background-color: rgba(10, 132, 231,1);
+    border: 2px inset black;
+    border-radius:10px;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+}
+input{
+    text-align: right;
+
+}
+
+/*****************************************     ****************************/
+
+
+/***************************    footer  *************************/  
+  .footer{
+
+    background-color: rgba(10, 132, 231,0.9);
+   
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+  }

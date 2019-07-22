@@ -1,0 +1,98 @@
+
+body{
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+}
+
+.navbar{
+    background-color: rgba(10, 132, 231,0.8);
+}
+.item-in-dropdown-menu{
+    background-color: bisque;
+   
+}
+.item-in-dropdown-menu:hover{
+    background-color: bisque;
+}
+/*********************** for header show *****************/
+    
+
+      .header{
+
+        height: 100%;
+       height: 550px;;
+       
+        padding: 21%;
+        padding-right:10%;
+        text-align: right;
+       
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+        background-image: url(images/header-BK.jpg);
+        background-repeat:no-repeat; 
+       
+        border-bottom: 1px solid white; 
+        
+      }
+
+      .header h1{
+        font-size: 400%;
+       
+      }
+/**************************       for content *******************/ 
+
+.contents{
+    width: 100%;
+    
+   
+    
+}
+
+
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+  
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+ 
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+ 
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+}
+
+.paragraph{
+  background-color: rgba(239, 247, 255,0.9);
+  text-align: right;
+  
+}
+
+/***************************    footer  *************************/  
+  .footer{
+
+    background-color: rgba(10, 132, 231,0.9);
+   
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+  }
+/* *****************************         *******************************/
+

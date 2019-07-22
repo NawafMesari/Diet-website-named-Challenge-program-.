@@ -1,0 +1,106 @@
+
+body{
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat; 
+}
+
+
+/****************      NavBar    **********************************/
+.navbar{
+    background-color: rgba(10, 132, 231,0.8);
+}
+.item-in-dropdown-menu{
+    background-color: bisque;
+   
+}
+.item-in-dropdown-menu:hover{
+    background-color: bisque;
+}
+
+/**************************       for content *******************/ 
+
+.contents{
+    position: relative;
+    margin-top:5%; 
+    width: 100%;
+   
+  
+   
+
+    /* border: 5px solid rgba(0, 255, 255,0.5); */
+   
+}
+
+/************************         from           *********************************/
+form{
+    text-align: center;
+    
+    width: 37%;
+    margin-left:30%;
+    margin-top:10%;
+    margin-bottom:5%;
+   
+}
+span{
+    color: red;
+    font-weight: bold;
+    font-size: 125%;
+}
+fieldset{
+    background-color: rgba(239, 247, 255,0.8);
+    border: 3px ridge aliceblue;
+    border-radius:10px; 
+}
+
+legend{
+   
+    width: 40%;
+    /* background-color: rgb(211, 199, 199); */
+    background-color: rgba(10, 132, 231,1);
+    border: 2px inset black;
+    border-radius:10px; 
+
+    padding: 0.5%;
+}
+input{
+    text-align: right;
+    width: 50%;
+    border-radius:10px; 
+}
+label{
+    width: 30%;
+}
+select{
+    width: 50%;
+    text-align: right;
+    border-radius:10px; 
+}
+textarea{
+    width: 100%;
+    text-align: right;
+    border-radius:10px; 
+}
+.checkedBox{
+    width: 5%;
+}
+.checkedBoxName{
+    color: black;
+    font-weight: normal;
+    font-size: 100%;
+}
+.addFile{
+    border-radius:10px; 
+    background-color: azure;
+     padding: 4px;;
+}
+/***************************    footer  *************************/  
+  .footer{
+
+    background-color: rgba(10, 132, 231,0.9);
+   
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+  }
